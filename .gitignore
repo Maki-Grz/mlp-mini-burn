@@ -1,2 +1,6 @@
 /target
-./Cargo.lock
+/Cargo.lock
+.idea
+anime.csv
+anime_model.mpk
+rating.csv

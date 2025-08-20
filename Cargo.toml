@@ -1,6 +1,11 @@
 [package]
-name = "llm-mini-burn"
-version = "0.1.0"
+name = "mlp-mini-burn"
+version = "0.2.0"
 edition = "2024"
 
 [dependencies]
+burn = "0.18.0"
+burn-autodiff = "0.18.0"
+burn-ndarray = "0.18.0"
+polars = { version = "0.50.0", features = ["csv"] }
+rand = "0.9.2"
