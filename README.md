@@ -2,12 +2,14 @@
 
 **MLP Mini Burn** is a Rust-based learning project demonstrating a Multi-Layer Perceptron (MLP) implementation using
 the [Burn](https://github.com/burn-rs/burn) deep learning framework. This repository is designed as a hands-on base for
-exploring neural networks, data preprocessing, training, and model evaluation.
+exploring neural networks, data preprocessing, training, and model evaluation. ARM architecture is supported. Trained
+models
+are saved to disk for later use. Was trained on a Microsoft Surface Pro 12" laptop.
 
 ## Features
 
 - Multi-Layer Perceptron with configurable hidden layers
-- Cross-entropy loss and SGD optimizer with gradient clipping
+- Cross-entropy loss and Adam optimizer with gradient clipping
 - Data preprocessing using [Polars](https://pola-rs.github.io/polars/) for CSV files
 - Automatic handling of categorical features (genres) and numeric normalization
 - Model saving and loading via Burn’s `CompactRecorder`
